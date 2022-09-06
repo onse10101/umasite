@@ -6,7 +6,7 @@ body {
   font-family: "Open Sans", sans-serif;
   color: #b9b9b9;
   scrollbar-width: 0;
-  background: url('../img/sc.png') top  no-repeat;
+  background: url('../img/umama.png') top  no-repeat;
   
  
   }
@@ -240,6 +240,7 @@ p{
   }
 }
 
+
 .nav-menu a:hover,
 .nav-menu .active,
 .nav-menu .active:focus,
@@ -376,7 +377,7 @@ p{
   #hero h1 {
     font-size: 40px;
     line-height: 40px;
-    margin-top: 120;
+    margin-top: 130px;
    
     
   }
