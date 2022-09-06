@@ -6,7 +6,7 @@ body {
   font-family: "Open Sans", sans-serif;
   color: #b9b9b9;
   scrollbar-width: 0;
-  background: url('../img/j5.png') top  no-repeat;
+  background: url('../img/ysu.png') top  no-repeat;
   
  
   }
@@ -330,7 +330,7 @@ p{
 #hero h1 {
   margin: 0;
   font-size: 70px;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 56px;
   color: #000203;
   margin-top: 200px;
@@ -341,8 +341,9 @@ p{
 #hero p {
   color: #000407;
   margin: 15px 0 0 0;
-  font-size: 35px;
+  font-size: 40px;
   font-family: "Poppins", sans-serif;
+  /* font-weight: bolder; */
 }
 
 #hero p span {
