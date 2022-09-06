@@ -6,7 +6,7 @@ body {
   font-family: "Open Sans", sans-serif;
   color: #b9b9b9;
   scrollbar-width: 0;
-  background: url('../img/jc.png') top  no-repeat;
+  background: url('../img/j5.png') top  no-repeat;
   
  
   }
@@ -54,7 +54,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #fe4c2d;
+  background: #ea2704;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -300,7 +300,7 @@ p{
 
 .mobile-nav-active .mobile-nav-toggle {
   color: #fff;
-  background-color: #fd4705;
+  background-color: #fd0f0f;
 }
 
 /*--------------------------------------------------------------
