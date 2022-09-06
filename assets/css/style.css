@@ -8,6 +8,8 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,200&display=swap');
 body {
   font-family: "Open Sans", sans-serif;
   color: #272829;
@@ -42,7 +44,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #0563bb;
+  background: #fe4c2d;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -56,7 +58,7 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #0678e3;
+  background: #ef947d;
   color: #fff;
 }
 
@@ -178,7 +180,7 @@ h6 {
 .nav-menu a:focus {
   display: flex;
   align-items: center;
-  color: #45505b;
+  color: #000307;
   padding: 10px 18px;
   margin-bottom: 8px;
   transition: 0.3s;
@@ -221,7 +223,7 @@ h6 {
 .nav-menu .active:focus,
 .nav-menu li:hover>a {
   color: #fff;
-  background: #0563bb;
+  background: rgb(233, 56, 56);
 }
 
 .nav-menu a:hover span,
@@ -284,12 +286,15 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  /* background: url("../img/hero-bg.jpg") top right no-repeat; */
-  background-size: cover;
+ background: url("../img/mee.png") top right no-repeat ;
+  margin-top: 50px;
+  background-size: 550px;
+  margin-right:100px;
+  padding-right: 40px;
   position: relative;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 500px) {
   #hero {
     padding-left: 160px;
   }
@@ -297,7 +302,6 @@ h6 {
 
 #hero:before {
   content: "";
-  background: rgba(255, 255, 255, 0.8);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -307,16 +311,17 @@ h6 {
 
 #hero h1 {
   margin: 0;
-  font-size: 64px;
+  font-size: 60px;
   font-weight: 700;
   line-height: 56px;
   color: #45505b;
+  
 }
 
 #hero p {
   color: #45505b;
   margin: 15px 0 0 0;
-  font-size: 26px;
+  font-size: 30px;
   font-family: "Poppins", sans-serif;
 }
 
@@ -332,31 +337,45 @@ h6 {
 #hero .social-links a {
   font-size: 24px;
   display: inline-block;
-  color: #45505b;
+  color: #000203;
   line-height: 1;
   margin-right: 20px;
   transition: 0.3s;
 }
 
 #hero .social-links a:hover {
-  color: #0563bb;
+  color: #f2481a;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 1050px) {
   #hero {
     text-align: center;
   }
 
   #hero h1 {
-    font-size: 32px;
-    line-height: 36px;
+    font-size: 40px;
+    line-height: 40px;
+    margin-top: 222px;
+   
+    
   }
 
   #hero p {
     margin-top: 10px;
     font-size: 20px;
+  
     line-height: 24px;
   }
+
+  #hero {
+    width: 100%;
+    height: 100vh;
+   background-size: 350px;
+   align-items: center;
+    position: relative;
+    margin-top: 90px;
+  }
+  
 }
 
 /*--------------------------------------------------------------
@@ -1202,7 +1221,7 @@ section {
 #footer .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #0563bb;
+  background: #ee2a02;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -1215,8 +1234,8 @@ section {
 }
 
 #footer .social-links a:hover {
-  background: #0678e3;
-  color: #fff;
+  background: #e4a48d;
+  color: rgb(247, 247, 247);
   text-decoration: none;
 }
 
