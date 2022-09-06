@@ -45,45 +45,7 @@ h6 {
 }
 
 
-/*--------------------------------------------------------------
-# Back to top button
---------------------------------------------------------------*/
-.back-to-top {
-  position: fixed;
-  visibility: hidden;
-  opacity: 0;
-  right: 15px;
-  bottom: 15px;
-  z-index: 996;
-  background: #ea2704;
-  width: 40px;
-  height: 40px;
-  border-radius: 50px;
-  transition: all 0.4s;
-}
 
-.back-to-top i {
-  font-size: 28px;
-  color: #fff;
-  line-height: 0;
-}
-
-.back-to-top:hover {
-  background: #ef947d;
-  color: #fff;
-}
-
-.back-to-top.active {
-  visibility: visible;
-  opacity: 1;
-}
-
-h2,
-li,
-h5,
-p{
-  color: #000102;
-}
 
 /*--------------------------------------------------------------
 # Preloader
@@ -315,6 +277,7 @@ p{
   position: relative;
 }
 
+
 @media (min-width: 500px) {
 
 }
@@ -326,6 +289,9 @@ p{
   top: 0;
   left: 0;
   right: 0;
+  
+
+ 
 }
 
 #hero h1 {
@@ -363,7 +329,7 @@ p{
   line-height: 1;
   margin-right: 20px;
   transition: 0.3s;
-  margin-top: 50px;
+  margin-top: 40px;
 }
 
 #hero .social-links a:hover {
@@ -379,7 +345,7 @@ p{
     font-size: 40px;
     line-height: 40px;
     margin-top: 400px;
-    
+
    
     
   }
