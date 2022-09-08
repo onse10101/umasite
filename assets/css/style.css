@@ -279,9 +279,10 @@ h6 {
 }
 
 
-@media (min-width: 500px) {
+@media (min-width: 500px) 
+{
 
-}
+
 
 #hero:before {
   content: "";
@@ -335,6 +336,7 @@ h6 {
 
 #hero .social-links a:hover {
   color: #f2481a;
+}
 }
 
 @media (max-width: 1050px) {
