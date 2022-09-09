@@ -11,9 +11,8 @@ body {
   scrollbar-width: 0;
   background: url('../img/uma.png') top  no-repeat;
 
-  
- 
-  }
+ }
+
 
 ::-webkit-scrollbar{
   display: none;
@@ -26,8 +25,10 @@ body {
   margin-top: 10px;
   padding: 0%;
   top: 100%;
-
+  background-color: rgba(121, 121, 121,0.2 );
+  z-index: -2;
 }
+
 a {
   color: #000000;
   text-decoration: none;
@@ -60,7 +61,6 @@ h6 {
   left: 0;
   right: 0;
   bottom: 0;
-  /* z-index: 9999; */
   overflow: hidden;
   background: #fff;
 }
@@ -128,27 +128,28 @@ h6 {
   transition: all 0.5s;
   padding: 15px;
   overflow-y: auto;
+  
 }
-
+ 
 @media (max-width: 1050px) {
   #header {
     width: 300px;
     background: #fff;
-    /* border-right: 1px solid #e6e9ec; */
-    left: -300px;
-    
+     border-right: 1px solid #e6e9ec; 
+     left: -300px;
   }
+  
 
   h1{
     color: black;
   }
   .social-links{
-    font-size: 25px;
-    letter-spacing: 10px;
+    font-size: 30px;
+    letter-spacing: 20px;
   }
 }
 
-@media (min-width: px) {
+@media (min-width: 777px) {
   #main {
     margin-left: 100px;
   }
@@ -315,12 +316,13 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  margin-top: 50px;
+  margin-top: 333px;
   position: relative;
 }
 
 span{
   margin-top: 150px;
+
 }
 
 @media (min-width: 777px) 
@@ -330,6 +332,8 @@ body{
   margin-top: 30px;
 }
 
+
+
 #hero:before {
   content: "";
   position: absolute;
@@ -337,18 +341,11 @@ body{
   top: 0;
   left: 0;
   right: 0;
-  background-size: 10px;
+  background-size: 100px;
   }
 
 
-#hero h1 {
-  margin: 0;
-  font-size: 70px;
-  font-weight: 450;
-  line-height: 56px;
-  color: #000203;
-  margin-top: 400px;
-  }
+
 
 
 #hero p {
@@ -365,10 +362,11 @@ body{
 
 
 #hero .social-links {
-  margin-top: 30px;
-  font-size: 50px;
+  margin-top: 100pxpx;
+  font-size: 100px;
 }
 
+}
 /*big screen */
 #hero .social-links a {
   font-size: 30px;
@@ -378,16 +376,16 @@ body{
   margin-right: 20px;
   transition: 0.3s;
   margin-top: 40px;
-}
 
+}
 
 #hero .social-links a:hover {
   color: #f2481a;
 }
 
-}
 
-@media (max-width: 1050px) {
+
+/* @media (max-width: 1050px) {
   #hero {
     text-align: center;
     
@@ -416,7 +414,597 @@ body{
     margin-top: 0px;
   }
   
-}
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -484,6 +1072,115 @@ body{
   background: #fff;
   border: 2px solid #000408;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*--------------------------------------------------------------
