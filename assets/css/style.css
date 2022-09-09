@@ -3,22 +3,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@1&display=swap');
+
+
 body {
   font-family: "Open Sans", sans-serif;
   color: #b9b9b9;
   scrollbar-width: 0;
-
   background: url('../img/ysu.png') top  no-repeat;
   
  
   }
+
 ::-webkit-scrollbar{
   display: none;
 }
 
 #hero{
   display: flex;
-  
   justify-content: center;
   align-items: center;
   margin-top: 10px;
@@ -51,13 +52,14 @@ h6 {
 /*--------------------------------------------------------------
 # Preloader
 --------------------------------------------------------------*/
-#preloader {
+
+  #preloader {
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  z-index: 9999;
+  /* z-index: 9999; */
   overflow: hidden;
   background: #fff;
 }
@@ -100,11 +102,18 @@ h6 {
 /*--------------------------------------------------------------
 # Disable aos animation delay on mobile devices
 --------------------------------------------------------------*/
-@media screen and (max-width: 768px) {
+
+@media screen and (max-width: 1050px) {
   [data-aos-delay] {
     transition-delay: 0 !important;
   }
 }
+
+
+
+
+
+
 
 /*--------------------------------------------------------------
 # Header
@@ -120,16 +129,25 @@ h6 {
   overflow-y: auto;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 1050px) {
   #header {
     width: 300px;
     background: #fff;
-    border-right: 1px solid #e6e9ec;
+    /* border-right: 1px solid #e6e9ec; */
     left: -300px;
+    
+  }
+
+  h1{
+    color: black;
+  }
+  .social-links{
+    font-size: 25px;
+    letter-spacing: 10px;
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: px) {
   #main {
     margin-left: 100px;
   }
@@ -140,6 +158,13 @@ h6 {
   justify-content: center;
   align-items: center;
 }
+
+
+
+
+
+
+
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
@@ -190,7 +215,7 @@ h6 {
   color: #000000;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 777px) {
 
   .nav-menu a,
   .nav-menu a:focus {
@@ -221,7 +246,8 @@ h6 {
 }
 
 .nav-menu a:hover,
-.nav-menu li:hover>a {
+.nav-menu li:hover>a
+ {
   width: 100%;
   color: #fff;
 }
@@ -230,6 +256,8 @@ h6 {
 .nav-menu li:hover>a span {
   display: block;
 }
+
+
 
 /**
 * Mobile Navigation 
@@ -267,6 +295,19 @@ h6 {
   background-color: #fd0f0f;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
@@ -279,7 +320,7 @@ h6 {
 }
 
 
-@media (min-width: 500px) 
+@media (min-width: 777px) 
 {
 
 
@@ -291,10 +332,8 @@ h6 {
   top: 0;
   left: 0;
   right: 0;
-  
+  }
 
- 
-}
 
 #hero h1 {
   margin: 0;
@@ -303,27 +342,28 @@ h6 {
   line-height: 56px;
   color: #000203;
   margin-top: 400px;
-  
-  
-}
+  }
+
 
 #hero p {
   color: #000407;
   margin: 15px 0 0 0;
   font-size: 30px;
   font-family: "Poppins", sans-serif;
-  
-}
+  }
 
 #hero p span {
   color: #000000;
   letter-spacing: 1px;
 }
 
+
 #hero .social-links {
   margin-top: 30px;
+  font-size: 40px;
 }
 
+/*big screen */
 #hero .social-links a {
   font-size: 30px;
   display: inline-block;
@@ -334,30 +374,32 @@ h6 {
   margin-top: 40px;
 }
 
+
 #hero .social-links a:hover {
   color: #f2481a;
 }
+
 }
 
 @media (max-width: 1050px) {
   #hero {
     text-align: center;
-  }
-
-  #hero h1 {
-    font-size: 40px;
-    line-height: 40px;
-    margin-top: 500px;
-
-   
     
   }
+
+#hero h1 {
+    font-size: 35px;
+    line-height: 40px;
+    margin-top: 500px;
+    font-weight: 900;
+   
+}
 
   #hero p {
     margin-top: 10px;
     font-size: 25px;
-  
     line-height: 34px;
+    font-weight: 300;
   }
 
   #hero {
@@ -372,10 +414,14 @@ h6 {
 
 
 
+
+
+
 /*--------------------------------------------------------------
-# Resume
+# About
 --------------------------------------------------------------*/
-.resume .resume-title {
+.resume .resume-title 
+{
   font-size: 26px;
   font-weight: 700;
   margin-top: 20px;
@@ -432,9 +478,6 @@ h6 {
   background: #fff;
   border: 2px solid #000408;
 }
-
-
-
 
 
 /*--------------------------------------------------------------
@@ -502,3 +545,4 @@ li,
 h5{
   color: #000000;
 }
+
